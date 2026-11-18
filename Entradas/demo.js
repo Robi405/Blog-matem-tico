@@ -1,4 +1,15 @@
 contenidoEntrada = `
+
+<style>
+  body {
+    background-image: url("Factorizacionfondo.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+</style>
+
 <section>
 
     <h2>Que es factorizar?</h2>
@@ -145,4 +156,9 @@ si es que tienes dos terminos separados por una resta y los dos tienen raiz cuad
   <li><strong>Diferencia de cuadrados:</strong> a² − b² = (a + b)(a − b) son los binomios conjugados de regreso.</li>
 </ul>
 
+
+
 </section>`;
+
+
+document.body.className = "fondo-factorizacion";

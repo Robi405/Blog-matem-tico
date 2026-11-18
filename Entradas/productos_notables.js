@@ -1,4 +1,15 @@
 contenidoEntrada = `
+
+<style>
+  body {
+    background-image: url("Productos notables.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+</style>
+
 <section>
     <h2>Productos notables</h2>
     <p>Un producto notable es una multiplicacion que aparece bastantes veces, es un patron que te da el resultado directo de los  y en la que ya tenemos una forma
@@ -96,6 +107,6 @@ contenidoEntrada = `
 
 
 
-
-
 </section>`;
+
+document.body.className = "fondo-productos";

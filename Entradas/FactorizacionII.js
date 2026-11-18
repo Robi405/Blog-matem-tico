@@ -1,4 +1,15 @@
 contenidoEntrada = `
+
+<style>
+  body {
+    background-image: url("Factorizacion II.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+</style>
+
 <section> 
 <h2> Suma y diferencia de cubos</h2>
 <p>
@@ -241,3 +252,5 @@ factores del trinomio.
 
 
 </section>`;
+
+document.body.className = "fondo-factorizacion2";
